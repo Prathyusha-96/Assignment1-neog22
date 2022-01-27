@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+body {
+    align-items: center;
+    background-color: lightgrey;
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    height: 290vh;
+    width: 100vw;
+}
+.drawer {
+    box-sizing: border-box;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    display: flex;
+    flex-direction: column;
+    width: 255px;
+}
+.drawer-title{
+    padding: 1.1rem;
+    padding-bottom: 0px;
+}
+.drawer-title > h1 {
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+.drawer-title > p {
+    color: gray;
+    font-size: 0.9rem;
+    font-weight: 300;
+}
+ol {
+    padding: 0.6rem;
+}
+.drawer-item {
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    margin-top: 10px;
+    padding: 0.5rem;
+    gap: 1rem;
+
+    
+}
+.drawer-item:hover {
+    background-color: rgba(229, 213, 252, 1);
+}
