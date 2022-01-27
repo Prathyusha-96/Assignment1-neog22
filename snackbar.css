@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0.5rem;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:  100vw;
+    height: 150vh;
+    background-color: #f7f7f7;
+    font-family: "Robto", sans-serif;
+}
+.snackbar {
+    background-color: #333333;
+    color: white;
+    font-size: 0.85rem;
+    font-weight: 300;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.snackbar-content {
+    flex-shrink: 1;
+}
+.snackbar-retry,
+.snackbar-close {
+    flex-shrink: 0;
+}
+.snackbar-retry {
+    color: #bb86fc;
+    font-weight: 400;
+    font-size: 0.9rem;
+    padding: 0px 1.5rem;
+    cursor: pointer;
+}
+.snackbar-close {
+    font-size: 1.2rem;
+    padding: 0.5rem 0.7rem;
+    border-radius: 100rem;
+    cursor: pointer;
+}
+.snackbar-close:hover {
+    background-color: rgba(256, 256, 256, 0.1);
+}
