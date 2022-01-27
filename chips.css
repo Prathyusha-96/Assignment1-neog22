@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+* {
+  box-sizing: border-box;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+body {
+  align-items: center;
+  background-color: #f7f7f7;
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto", sans-serif;
+  height: 100vh;
+  justify-content: space-evenly;
+  width: 100vw;
+}
+
+.chips__wrapper {
+  align-items: center;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  min-width: 200px;
+  padding: 2rem;
+  width: 90%;
+}
+
+.chip {
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 100rem;
+  cursor: default;
+  display: flex;
+  font-size: 0.9rem;
+  justify-content: center;
+  margin: 4px 8px;
+  padding: 0.5rem;
+  width: fit-content;
+}
+
+.chip > i {
+  color: gray;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-left: 5px;
+}
+
+.chip:hover {
+  background-color: rgba(0, 0, 0, 0.2); 
+}
+
+input {
+  border: none;
+  border-radius: 100rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  font-size: 1rem;
+  padding: 1rem 2rem;
+}
+
+input::placeholder {
+  color: red;
+  font-size: 1rem;
+  text-align: center;
+}
+
+input:focus {
+  outline: none;
+}
